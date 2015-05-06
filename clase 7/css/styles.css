@@ -1,0 +1,12 @@
+.box img {
+	width: 100%;
+}
+
+.caja {
+	margin: 5px;
+	text-align: justify;
+}
+
+.header, .footer {
+	background:#bb3;
+}
