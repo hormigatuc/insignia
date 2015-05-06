@@ -1,0 +1,69 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+body {
+	background: #fff;
+	color:#333;
+	font-size: 16px;
+	font-family: "Arial";
+}
+.hero {
+	background:#ca3996;
+}
+.contact {
+	background:#c88a18;
+}
+.row {
+	width:960px;
+	margin: 0 auto;
+	padding: 30px;
+}
+.hero-img {
+	width: 60%;
+	float:left;
+}
+.hero-content {
+	width: 30%;
+	float:right;
+	color:white;
+}
+.hero-img img {
+	width: 100%;
+}
+.features-title {
+	text-align: center;
+}
+.features-title h2 {
+	font-size: 72px;
+	letter-spacing: -2px;
+	font-weight: bold;
+	color:#64d5a9;
+}
+.features-list-item {
+	width: 27%;
+	float: left;
+	margin-right: 5%;
+	
+}
+.features-list-item img{
+	width: 100%;
+}
+.contact-form{
+	float: left;
+	width: 45%;
+}
+.contact-info {
+	float: right;
+	width: 45%;
+}
+.contact-info img{
+	width: 100%;
+}

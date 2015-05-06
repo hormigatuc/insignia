@@ -1,0 +1,65 @@
+section {
+  width: 100%;
+  height: auto;
+}
+.data1 {
+  background: red;
+}
+.data2 {
+  background: blue;
+}
+.data3{
+  background: yellow;
+}
+.data4{
+  background: orange;
+}
+.left {
+ float: left;
+}
+.right {
+float: right;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+.formacion .left {
+  width: 50%;
+  margin-left: 20px;
+}
+.formacion .right {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.formacion {
+  border: #000 solid 1px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+body {
+  font-family: "Roboto+Condensed",Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-weight: 700;
+}
+p {
+  font-family: 
+} 
+.right ul li {
+  color: red;
+}

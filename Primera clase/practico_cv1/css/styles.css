@@ -1,0 +1,23 @@
+body {
+	background: #666;
+	color: blue;
+}
+article{
+	width: 960px;
+	background: #f4f4f4;
+	margin:20px auto;
+	padding:20px;
+}
+.list li {
+	color:#333;
+}
+article header {
+	text-align: center;
+	border-bottom: 5px #bb3 solid;
+}
+article header img{
+	height: 150px;
+}
+article header h2{
+	color: #bbbb66;
+}

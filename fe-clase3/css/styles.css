@@ -1,0 +1,313 @@
+/**
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*
+*
+* Colour Pallete
+* http://www.colourlovers.com/palette/3746946/Mad_as_a_Hatter
+*
+*/
+
+body {
+  font-family: "Cabin","Anton", Helvetica, Arial;
+  font-size: 16px;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Cabin";
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.header-title {
+  float: left;
+  line-height:5px;
+}
+
+.header-nav {
+  float:right;
+  list-style: none;
+  margin-top: 25px;
+}
+
+  .header-nav li {
+    margin-right: 200px;
+    width: 210px;
+    height: auto;
+  }
+
+.hero {
+  background: #0097db;
+}
+
+.contact {
+  background:  #0097dc;
+}
+
+.row {
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.hero {
+  color: #f8e7a1;
+}
+
+.hero-image {
+  float: right;
+  width: 60%;
+}
+
+  .hero-image img {
+    width: 100%;
+  }
+
+.hero-content {
+  float: left;
+  width: 30%;
+}
+
+  .hero-content h2 {
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  .hero-content p {
+    color: #f4f4f4;
+  }
+
+.features {
+  background: #e5e5e5;
+
+}
+
+.features-title {
+  text-align: center;
+}
+
+.features-title h4 {
+    text-align: left;
+    font-size: 20px;
+    color: #0097db;
+    letter-spacing: -2px;
+  }
+.features-title p {
+    text-align: left;
+    font-size: 8px;
+    color: #0097db;
+    letter-spacing: -2px;
+  }
+
+.features-list-item {
+  float: left;
+  width: 20%;
+  color: #a4558e;
+}
+.features-list-item img{
+  vertical-align: center;
+  width: 90%;
+}
+
+/*
+  Esta pseudo-class se utiliza para seleccionar el div.features-list-item que se
+  encuentra en el medio del listado.
+*/
+/*.features-list-item:not(:first-child):not(:last-child) {
+  margin: 0 2%;
+}
+
+  .features-list-item img {
+    width: 100%;
+  }
+
+  .features-list-item p {
+    color: #333;
+  }
+
+.contact-form {
+  float: left;
+  width: 30%;
+  margin-right: 4%;
+  color: #f4f4f4;
+}
+
+.contact-form .field {
+  margin-bottom: 20px;
+}
+
+  .contact-form .field input,
+  .contact-form .field textarea {
+    float: right;
+    width: 100%;
+  }
+
+  .contact-form .field textarea {
+    float: right;
+    height: 30%;
+  }
+.textarea {
+  float: left;
+}
+.contact-info {
+  float: right;
+  width: 10%;
+}
+
+  .contact-info img {
+    width: 40%;
+  }*/
+
+  /*desde aqui meti manos*/
+h1 {
+  font-family: "Anton";
+  font-size: 40px;
+  letter-spacing: 2px;
+  white-space: -20px;
+  color: #3a96d8;
+  font-weight: 700;
+}
+h2 {
+  font-family: "Anton";
+  font-size: 60px;
+  letter-spacing: 2px;
+  white-space: -20px;
+  color: #3a96d8;
+  font-weight: 700;
+}
+h3 {
+  font-family: "Cabin";
+  font-size: 18px;
+  white-space: -20px;
+  font-weight: 700;
+}
+h4 {
+  font-family: "Cabin";
+  font-size: 20px;
+  white-space: -20px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.texcir2 p {
+  font-family: "Cabin";
+  font-size: 20px;
+  white-space: -20px;
+  color: #3a96d8;
+  font-weight: 700;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.texcir2 p.num {
+  font-size: 40px;
+}
+.texcir2 {
+  position: relative;
+  display: inline-block;
+  height: 75px;
+  width:100px;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+  background-color: #ffffff;
+  padding-top: 25px;
+}
+
+.img1 img {
+  float: right;
+  width: 30%;
+}
+.listonazul {
+    margin-right: 80px;
+    float: right;
+    width: 80%;
+}
+.header-2 {
+  margin-right: 190px;
+  margin-left: 190px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.texcir {
+  position: relative;
+  display: inline-block;
+  height: 100px;
+  width:100px;
+  border-radius: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+  background-color: #3a96d8;
+}
+
+.texcirexplicacion {
+  float: right;
+  width: 80%;
+  margin:
+}
+.texcirexplicacion p {
+  position: relative;
+  font-size: 14px;
+  font-family: "Arial";
+  color: #767676
+}
+.texcir p {
+  position: relative;
+  margin-top: 40px;
+  font-size: 16px;
+  font-family: "Arial Black";
+  color: #ffffff
+}
+
+.lineagris div {
+  background-color: #767676;
+  height: 2px;
+  width: auto;
+  margin: auto; 
+}
+.contact-info img{
+      float: right;
+      width: 5%;
+      margin: -30;
+}
+.contact-img2 {
+  width: 30%;
+  margin: 0px;
+  margin-top:40px; 
+  padding: -40px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
