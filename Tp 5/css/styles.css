@@ -1,0 +1,83 @@
+body {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+header, div.hero-unit, div.features, footer {
+  padding: 30px;
+}
+
+.img-box img {
+  width: 100%;
+}
+
+.nav {
+  margin-top: 140px;
+  margin-left: 40px;
+}
+
+.nav li {
+  float: left;
+  margin-right: 20px;
+}
+
+.nav li a {
+  background: #00592d;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
+.nav li a:hover {
+  background: #00b85c;
+}
+
+div.hero-unit, footer {
+  background: #00592d;
+}
+
+.polaroid {
+  background: #f4f4f4;
+  boder: 1px solid #ccc;
+  padding: 7px;
+}
+
+.hero-text {
+  color: #f4f4f4;
+}
+
+.hero-text h2 {
+  font-size: 48px;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  line-height: 20px;
+  text-align: justify;
+}
+
+.hero-text .action {
+  padding-top: 40px;
+}
+
+.hero-text .action a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid #f4f4f4;
+  padding: 15px 30px;
+
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -khtml-border-radius: 15px;
+}
+
+.features .img-box {
+  margin-top: 20px;
+}
