@@ -3,7 +3,84 @@ body {
   font-size: 16px;
 }
 
+.casa div {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: sans;
+}
+
 .hero {
   font-family: 'Pinyon Script', cursive;
   font-size: 40px;
+}
+.publi {
+	background: #2A2A2A;
+	padding: 10px;
+}
+.nav {
+	background: #345071;
+	padding-bottom: 15px;
+
+}
+.nav li {
+	display: inline-block;
+}
+li a {
+	font-family: "Lato";
+	text-decoration: none;
+	color: #FFFFFF;
+	margin: 10px;
+}
+
+.box {
+	width: 100%;
+	background: url("../img/hero.jpg") bottom center no-repeat;
+	background-size: cover;
+}
+.box p {
+	font-size: 60px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 200px;
+}
+
+.ajuste {
+	background: #BFD9F2;
+}
+h2 {
+	font-family:"Lato";
+	color: #95BADF;
+	font-style: 24px;
+	padding: 20px;
+}
+.ajuste div img {
+	padding-left: 400px;
+}
+
+.box p {
+	font-family: "Pinyon Script";
+}
+
+.img-box img {
+	margin: 0px;
+  	width: 100%;
+  	padding-top: 30px;
+
+}
+
+.descri, .footer {
+	background-color: #95BADF;
+}
+.descri div {
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: "Lato";
+	color:#FFFFFF;
+}
+h1 {
+	font-family: "Lato";
+	font-size: 14px;
+	padding-top: 20px;
 }

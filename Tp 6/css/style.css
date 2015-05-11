@@ -1,0 +1,20 @@
+label {
+  display: block;
+}
+
+.field input:focus {
+  background:#ff7;
+}
+
+body {
+	font-family: helvetica;
+	margin: 20px;
+	vertical-align: center;
+	padding: 10px;
+}
+.datper {
+	padding: 20px;
+}
+.for {
+	padding: 20px;
+}
