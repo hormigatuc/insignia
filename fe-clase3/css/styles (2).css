@@ -1,0 +1,169 @@
+/**
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*
+*
+* Colour Pallete
+* http://www.colourlovers.com/palette/3746946/Mad_as_a_Hatter
+*
+*/
+
+body {
+  font-family: "Arial";
+  font-size: 16px;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 22px;
+}
+
+.header-title {
+  float: left;
+}
+
+.header-nav {
+  float:right;
+  list-style: none;
+  margin-top: 25px;
+}
+
+  .header-nav li {
+    float: left;
+    margin-right: 10px;
+  }
+
+.hero {
+  background: #a4558e;
+}
+
+.contact {
+  background:  #b351a4;
+}
+
+.row {
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.hero {
+  color: #f8e7a1;
+}
+
+.hero-image {
+  float: left;
+  width: 60%;
+}
+
+  .hero-image img {
+    width: 100%;
+  }
+
+.hero-content {
+  float: right;
+  width: 30%;
+}
+
+  .hero-content h2 {
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  .hero-content p {
+    color: #f4f4f4;
+  }
+
+.features {
+
+}
+
+.features-title {
+  text-align: center;
+}
+
+  .features-title h3 {
+    font-size: 60px;
+    color: #659c5b;
+    letter-spacing: -2px;
+  }
+
+.features-list-item {
+  float: left;
+  width: 32%;
+  color: #a4558e;
+}
+
+
+/*
+  Esta pseudo-class se utiliza para seleccionar el div.features-list-item que se
+  encuentra en el medio del listado.
+*/
+.features-list-item:not(:first-child):not(:last-child) {
+  margin: 0 2%;
+}
+
+  .features-list-item img {
+    width: 100%;
+  }
+
+  .features-list-item p {
+    color: #333;
+  }
+
+.contact-form {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+  color: #f4f4f4;
+}
+
+.contact-form .field {
+  margin-bottom: 20px;
+}
+
+  .contact-form .field input,
+  .contact-form .field textarea {
+    width: 100%;
+  }
+
+  .contact-form .field textarea {
+    height: 70%;
+  }
+
+.contact-info {
+  float: right;
+  width: 48%;
+}
+
+  .contact-info img {
+    width: 100%;
+  }
